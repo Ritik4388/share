@@ -1,0 +1,21 @@
+{
+  "name": "share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
